@@ -1,0 +1,20 @@
+html {background-color: cadetblue;}
+H1 {color: sienna;}
+#Me_possibly {width: 250px; }
+.highlight_01 {color: sienna;}
+#ramble 
+{
+background-color: honeydew;
+}
+
+#gnocchiex
+{
+background-color: honeydew;
+
+}
+A:hover 
+{
+    background-color: red; transition: linear 500ms;
+    color: gold;
+    text-transform: capitalize;
+}
