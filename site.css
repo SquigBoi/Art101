@@ -6,13 +6,17 @@ H1 {color: sienna;}
 {
 background-color: honeydew;
 }
-
-#gnocchiex
+#random_stuff
 {
-background-color: honeydew;
-
+background-color: violet;
 }
-A:hover 
+
+C:hover
+{
+    background-color: honeydew; transition: linear 500ms;
+}
+
+B:hover 
 {
     background-color: red; transition: linear 500ms;
     color: gold;
