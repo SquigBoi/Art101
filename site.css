@@ -1,26 +1,15 @@
 html {background-color: cadetblue;}
 H1 {color: sienna;}
 .highlight_01 {color: sienna;}
-
 #page {
     max-width: 600px;
     margin: 0 auto 0 auto;
     background: honeydew;
     padding: 50px;
 }
-#page h1 {
-    text-align: center;
-}
-
-#ramble 
-{
-     background: #f3f7ff;
-     padding: 30px;
-     border-left: 6px solid cadetblue
-}
-
+#page h1 { text-align: center;}
+#ramble { background: #f3f7ff; padding: 30px; border-left: 6px solid cadetblue }
 #ramble h3 {color: sienna;}
-
 #mefs {
     display: flex;
     gap: 30px;
@@ -29,37 +18,20 @@ H1 {color: sienna;}
     background-color: azure;
     padding: 15px;
 }
-
 #Me_possibly {flex-wrap: wrap; width: 70%;}
-
 #othertitle {color: sienna;}
-
-C:hover
-{
+C:hover{
     color: sienna; transition: linear 300ms;
 }
-
-B:hover 
-{
+B:hover {
     background-color: red; transition: linear 300ms;
     color: gold; transition: linear 300ms;
 }
-
 #misc_links {
     background: azure;
     padding: 20px;
     border-radius: 12px;
 }
-
-#misc_links h3 {
-    margin-top: 0;
-}
-
-#misc_links li {
-    margin-bottom: 8px;
-}
-
-#misc_links a {
-    color: #1d1184;
-    font-weight: bold;
-}
+#misc_links h3 { margin-top: 0;}
+#misc_links li { margin-bottom: 8px;}
+#misc_links a { color: #1d1184; font-weight: bold;}
