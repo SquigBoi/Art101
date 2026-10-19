@@ -2,6 +2,7 @@ body
 {
 background-image: url(original.jpg);
 background-size: cover;
+image-rendering: pixelated;
 }
 #top h1 {
     text-align: center;
@@ -20,4 +21,18 @@ background-size: cover;
 }
 #options h3:hover {
     padding: 25px; transition: linear 300ms;
+}
+
+#bot {
+    padding-top: 15%;
+    padding-left: 50%;
+}
+#bot h3 {
+    text-align: center;
+    background-color: gray; color: white;
+    padding: 10px;
+    width: 400px;
+}
+#stupid_thing {
+    width: 200px;
 }
