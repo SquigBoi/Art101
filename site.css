@@ -2,30 +2,56 @@ html {background-color: cadetblue;}
 H1 {color: sienna;}
 .highlight_01 {color: sienna;}
 
-#Me_possibly {flex-wrap: wrap; width: 250px;}
-img:hover 
-{
-    width: 250px;
-    border: 15px solid goldenrod
+#page {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+    background: honeydew;
+    padding: 50px;
+}
+#page h1 {
+    text-align: center;
 }
 
-#ramble 
-{
-background-color: honeydew;
+
+#mefs {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+    background-color: azure;
+    padding: 15px;
 }
-#random_stuff
-{
-background-color: violet;
-}
+
+#Me_possibly {flex-wrap: wrap; width: 90%;}
+
+#othertitle {color: sienna;}
 
 C:hover
 {
-    background-color: honeydew; transition: linear 500ms;
+    color: sienna; transition: linear 300ms;
 }
 
 B:hover 
 {
-    background-color: red; transition: linear 500ms;
-    color: gold;
-    text-transform: capitalize;
+    background-color: red; transition: linear 300ms;
+    color: gold; transition: linear 300ms;
+}
+
+#misc_links {
+    background: azure;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#misc_links h3 {
+    margin-top: 0;
+}
+
+#misc_links li {
+    margin-bottom: 8px;
+}
+
+#misc_links a {
+    color: #1d1184;
+    font-weight: bold;
 }
