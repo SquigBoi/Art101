@@ -12,6 +12,14 @@ H1 {color: sienna;}
     text-align: center;
 }
 
+#ramble 
+{
+     background: #f3f7ff;
+     padding: 30px;
+     border-left: 6px solid cadetblue
+}
+
+#ramble h3 {color: sienna;}
 
 #mefs {
     display: flex;
@@ -22,7 +30,7 @@ H1 {color: sienna;}
     padding: 15px;
 }
 
-#Me_possibly {flex-wrap: wrap; width: 90%;}
+#Me_possibly {flex-wrap: wrap; width: 70%;}
 
 #othertitle {color: sienna;}
 
