@@ -1,0 +1,9 @@
+body { background-image: url(original.jpg); background-size: cover; image-rendering: pixelated;}
+#top h1 { text-align: center; background-color: gray; color: white;}
+#top h3 { text-align: center; background-color: gray; color: white; padding: 10px; width: 400px;}
+#options { display: flex; gap: 30px; align-items: flex-start; margin: 0 0 25px 0; padding: 15px;}
+#options h3 { background-color: gray; padding: 10px; color: white;}
+#options h3:hover { padding: 25px; transition: linear 300ms;}
+#bot { padding-top: 15%; padding-left: 50%;}
+#bot h3 { text-align: center; background-color: gray; color: white; padding: 10px; width: 400px;}
+#stupid_thing { width: 200px;}
