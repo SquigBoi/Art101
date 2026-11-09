@@ -8,7 +8,9 @@ $("#freaky_button").click(function(){
     // what happens when the button is clicked?
     counter = counter + 1;
     subcounter = subcounter + 1;
-    if (subcounter > 7) subcounter = subcounter - 7;
+    if (subcounter == 8){
+         subcounter = subcounter - 7;
+    };
 
     console.log(counter);
     console.log(subcounter-1);
